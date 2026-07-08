@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EjiCode</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script type="module" src="app.js" defer></script>
+
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">
+        &lt;/&gt; EjiCode
+    </div>
+
+    <ul>
+        <li>Home</li>
+        <li>Features</li>
+        <li>About</li>
+        <li>Pricing</li>
+    </ul>
+
+    <button class="start-btn">
+        Get Started
+    </button>
+</nav>
+
+<section class="hero">
+
+    <div class="avatar-section">
+
+        <canvas id="avatarCanvas"></canvas>
+
+        <div class="note" id="avatarNote">
+            Hey! Let's build something awesome 🚀
+        </div>
+
+    </div>
+
+    <div class="form-card">
+
+        <h1>
+            Join <span>EjiCode</span>
+        </h1>
+
+        <p>
+            Create your account and start your coding journey.
+        </p>
+
+        <form id="signupForm">
+
+            <input
+                id="name"
+                type="text"
+                placeholder="Full name"
+            >
+
+            <input
+                id="email"
+                type="email"
+                placeholder="Email address"
+            >
+
+            <button type="submit">
+                Sign me up
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<section class="stack-section">
+
+    <h2>If I Were Building <span>EjiCode</span></h2>
+    <p class="stack-sub">I would choose:</p>
+
+    <div class="stack-cards">
+
+        <div class="stack-card" data-index="0">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-num">1</div>
+                    <div class="card-icon">🌐</div>
+                    <h3>HTML + CSS</h3>
+                    <p>for the form</p>
+                </div>
+                <div class="card-back">
+                    <p>Structure the UI with semantic HTML and style it with modern CSS — clean, responsive, and accessible.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="stack-card" data-index="1">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-num">2</div>
+                    <div class="card-icon">🎮</div>
+                    <h3>Three.js</h3>
+                    <p>for the 3D avatar</p>
+                </div>
+                <div class="card-back">
+                    <p>Render a real-time 3D avatar in the browser using WebGL — no plugins, just pure Three.js magic.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="stack-card" data-index="2">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-num">3</div>
+                    <div class="card-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>to make the avatar react</p>
+                </div>
+                <div class="card-back">
+                    <p>Wire up events so the avatar responds to user input — focus, hover, submit — all driven by vanilla JS.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>

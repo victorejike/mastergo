@@ -1,22 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+ // print comb2 a program that print digt in accending order
 
-func PrintComb2() {
-	for i := 0; i <= 98; i++ {
-		for j := i + 1; j <= 99; j++ {
-			fmt.Printf("%02d %02d", i, j)
-
-			
-			if !(i == 98 && j == 99) {
-				fmt.Print(", ")
-			}
+ func main(){
+	for i := 0 ; i <= 8; i ++{
+		for j := 0+1 ; <= 9; j++{
+			fmt.Printf(" %d %d,", i, j)
+			if i < j (
+				continue
+			)
 		}
 	}
-	// Print a newline at the very end
-	fmt.Println()
-}
 
-func main() {
-	PrintComb2()
-}
+	fmt.Println()
+ }
