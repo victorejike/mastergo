@@ -4,16 +4,12 @@ import (
 	"fmt"
 )
 
-func Isnegative(nd int) {
-	if nd < 0 {
-		fmt.Print('F')
-	} else {
-		fmt.Print('T')
-	}
+func Isnegative(nd int) bool {
+	return nd < 0
 }
 
 func main() {
-	Isnegative(1)
-	fmt.Println()
+
+	fmt.Println(Isnegative(1))
 
 }
