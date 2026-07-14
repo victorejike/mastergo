@@ -5,7 +5,8 @@ import (
 )
 
 func PointerOne(n *int) {
-	*n = 50
+	*n = 50	
+
 }
 
 func main() {
