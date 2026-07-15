@@ -6,9 +6,9 @@ import(
 
 //Here is a possible program to test your function :
 
-// package main
+ package main
 
-// import "piscine"
+ import "piscine"
 
 // func main() {
 // 	piscine.PrintComb()
